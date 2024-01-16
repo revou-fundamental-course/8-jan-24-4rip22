@@ -9,6 +9,5 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Please enter a valid number for the side length.");
         }
     }
-
     document.getElementById("countButton").addEventListener("click", calculateSquareArea);
 });
