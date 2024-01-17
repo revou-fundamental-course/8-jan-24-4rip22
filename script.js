@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function resetInput() {
         document.getElementById("squareSide").value = "";
     }
-
     document.getElementById("countButton").addEventListener("click", calculateSquareArea);
     document.getElementById("resetButton").addEventListener("click", resetInput); 
 });
