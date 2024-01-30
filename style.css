@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -97,10 +98,12 @@ header p {
     margin-top: 110px;  
     font-size: small;  
     margin-top: -6px;
+    margin-left : 10px;
 }
 .luas{
     display: flex;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .bujur {
@@ -134,7 +137,7 @@ hr{
     }
 
     .inputSection {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     #squareSide {
